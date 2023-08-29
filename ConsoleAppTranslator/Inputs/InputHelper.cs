@@ -69,7 +69,7 @@ public static class InputHelper
     }
 
     public static string GetTargetLanguage() =>
-        GetLanguageCode(Prompt.Select("Lingua a ser usada na traducao:",
+        GetLanguageCode(Prompt.Select("Lingua a ser usada na traducao",
             new[] { EnglishLanguage, PortugueseLanguage, SpanishLanguage }));
 
     public static string GetAnswerContinue() =>
